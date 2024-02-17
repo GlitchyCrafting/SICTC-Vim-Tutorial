@@ -16,3 +16,4 @@ This key is the same as used in the Vim docs
 ### Table of Contents
 
 - [00 - Basics](/Tutorial/00-Basics.md)
+- [01 - Options](/Tutorial/01-Options.md)
