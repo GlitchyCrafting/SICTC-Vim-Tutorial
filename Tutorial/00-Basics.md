@@ -17,7 +17,7 @@ Keybinds I either use or that get replaced by a more user-friendly plugin
 
 Movin' around
 
-- `<arrows>`: Character-based movement
+- `<arrow>`: Character-based movement
 - `$`: End of line
 - `^`: Beginning of line
 - `gg`: First line of file
@@ -98,7 +98,7 @@ Windows are panes within Vim that can contain different files
 
 - `s`: Split window horizontally (top, bottom)
 - `v`: Split window vertically (left, right)
-- `<arrows>`: Move to window in <arrow> direction
+- `<arrow>`: Move to window in <arrow> direction
 - `w`,`W`: Cycle to next,previous window
 - `q`: Close window
 - `o`: Close other windows
