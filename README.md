@@ -19,3 +19,4 @@ This key is the same as used in the Vim docs
 - [01 - Options](/Tutorial/01-Options.md)
 - [02 - Plugins Intro](/Tutorial/02-Plugins-Intro.md)
 - [03 - Useful Prettiness](/Tutorial/03-Useful-Prettiness.md)
+- [04 - Less Tediousness](/Tutorial/04-Less-Tediousness.md)
