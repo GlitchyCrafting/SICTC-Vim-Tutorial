@@ -83,14 +83,14 @@ Part Two: The Identifier
 - `w`: Word
 - `s`: Sentence
 - `p`: Paragraph
-- '{': `{ this }`
-- '[': `[ this ]`
-- '(': `( this )`
+- `{`: `{ this }`
+- `[`: `[ this ]`
+- `(`: `( this )`
 - `<`: Angle Block
 - `t`: HTML Tag
 - `'`: Single Quote
 - `"`: Double Quote
-- `\``: Backtick Quote
+- ` \` `: Backtick Quote
 
 ### Windows
 
