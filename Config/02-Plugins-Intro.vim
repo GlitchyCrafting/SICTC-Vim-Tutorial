@@ -23,8 +23,8 @@ set splitright
 set splitbelow
 set foldmethod=indent
 set mouse=
-
 set termguicolors
+
 call plug#begin()
 
 Plug 'catppuccin/vim'

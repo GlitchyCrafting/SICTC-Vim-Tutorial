@@ -31,4 +31,4 @@ You can use any colorscheme you like, [here's some more](https://vimcolorschemes
 4. Restart Vim and run `:PlugUpdate`
 
 That's much better.
-![Vim with catppuccin_mocha theme](/Assets/02-Plugins-Intro-Final.png)
+![Vim with catppuccin_mocha theme](/Assets/02-Plugins-Intro.png)
