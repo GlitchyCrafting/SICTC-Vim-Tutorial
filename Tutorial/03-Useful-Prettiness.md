@@ -34,9 +34,9 @@ Add `ryanoasis/vim-devicons` using the same procedure we've been using.
 
 ## Status Line
 
-You know that thing at the bottom of the window that shows your cursor position and mode? Well, let's replace that to have some more info and look better.
+You know that thing at the bottom of the window that shows your cursor position and mode? Well, let's replace that to have some more info and better looks.
 Just add `vim-airline/vim-airline` to your plugins.
 
 Now isn't that better?
 ![Airline and Indent](/Assets/03-Useful-Prettiness.png)
-It's hard to show the syntax highlighting with a simple language, just trust it's there.
+It's hard to show the syntax highlighting with a simple language, just trust it's there. The screenshot only features comments, that's why there ain't no highlighting there.
