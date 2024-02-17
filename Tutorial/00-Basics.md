@@ -11,11 +11,11 @@ vim`. It's recommended to do `$ vimtutor` to learn the basics of Vim.
 
 ## Keybinds
 
-Keybinds I either use or that get replaced by a more user-friendly plugin
+Keybinds I either use or replace with a more user-friendly plugin. Learning them
+will slowly remove the need to use the mouse over time. You can find more
+keybinds by typing `:help quickref`
 
 ### Motions
-
-Movin' around
 
 - `<arrow>`: Character-based movement
 - `$`: End of line
@@ -64,8 +64,6 @@ Movin' around
 
 ### Insert Mode
 
-Finally some normal text editing
-
 - `<C-o>`: Temporary normal mode
 
 ### Visual (Block) Mode
@@ -90,9 +88,10 @@ Part Two: The Identifier
 - `"`: Double Quote
 - <code>`</code>: Backtick Quote
 
-### Windows
+Combining these (ex. `aw`, `it`) results in faster and easier text selection
+than using the mouse.
 
-Windows are panes within Vim that can contain different files
+### Windows
 
 - `s`: Split window horizontally (top, bottom)
 - `v`: Split window vertically (left, right)
