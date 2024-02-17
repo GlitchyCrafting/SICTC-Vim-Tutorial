@@ -72,11 +72,13 @@ Finally some normal text editing
 
 Selecting text. This one gets a bit complicated. You __can__ use any motion to select text, but I'm
 gonna show the shortcuts that make life a lot easier. There are two parts to these shortcuts:
-<br>
+<br><br>
+
 Part One: Around and Inside
 - `a`: Selects the identifier and the stuff inside
 - `i`: Selects only the stuff inside an identifier
 <br>
+
 Part Two: The Identifier
 - `w`: Word
 - `s`: Sentence
