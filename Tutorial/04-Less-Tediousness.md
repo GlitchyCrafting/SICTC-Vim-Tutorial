@@ -45,7 +45,8 @@ Nobody can agree on what coding style they want to use:
 - OTBS vs Stroustrup vs K&R vs ... [Just look at this list](https://www.wikiwand.com/en/Indentation_style)
 
 So let's allow Vim to follow to other people's styles: `editorconfig/editorconfig-vim`.
-This won't be very helpful in this class, unless you're working with me, but many companies use this plugin, whether in Vim or other editors.
+This won't be very helpful in this class, unless you're working with me.
+Many companies use this plugin, though, whether in Vim or other editors.
 
 File dialogs are nice. It even comes with a preview!
 ![Fzf in Vim](/Assets/04-Less-Tediousness.png)
