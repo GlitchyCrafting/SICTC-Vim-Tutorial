@@ -38,7 +38,7 @@ There are many options to customize the behavior of Vim, here are the ones I mai
 - `splitright`: Open new splits to the right of current
 - `splitbelow`: Open new vsplits below current
 - `foldmethod`=`indent`: Automatically create folds based on indent, `zx` to refresh
-- `mouse`=``: Yes that is an empty option and, yes, it does disable the use of the mouse
+- `mouse`=` `: Yes that is an empty option and, yes, it does disable the use of the mouse
 
 Vim looks quite ugly with these options, but we're gonna fix that in a just a bit
 ![Vim lookin' a bit ugly](/Assets/01-Options-Final.png)
