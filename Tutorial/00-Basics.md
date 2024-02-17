@@ -90,7 +90,7 @@ Part Two: The Identifier
 - `t`: HTML Tag
 - `'`: Single Quote
 - `"`: Double Quote
-- `` ` ``: Backtick Quote
+- <code>`</code>: Backtick Quote
 
 ### Windows
 
