@@ -18,3 +18,4 @@ This key is the same as used in the Vim docs
 - [00 - Basics](/Tutorial/00-Basics.md)
 - [01 - Options](/Tutorial/01-Options.md)
 - [02 - Plugins Intro](/Tutorial/02-Plugins-Intro.md)
+- [03 - Useful Prettiness](/Tutorial/03-Useful-Prettiness.md)
