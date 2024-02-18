@@ -22,3 +22,4 @@ This key is the same as used in the Vim docs
 - [04 - Less Tediousness](/Tutorial/04-Less-Tediousness.md)
 - [05 - Autocomplete](/Tutorial/05-Autocomplete.md)
 - [06 - Which Key](/Tutorial/06-Which-Key.md)
+- [07 - Conclusion And Beyond](/Tutorial/07-Conclusion-and-Beyond.md)
