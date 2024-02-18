@@ -20,3 +20,4 @@ This key is the same as used in the Vim docs
 - [02 - Plugins Intro](/Tutorial/02-Plugins-Intro.md)
 - [03 - Useful Prettiness](/Tutorial/03-Useful-Prettiness.md)
 - [04 - Less Tediousness](/Tutorial/04-Less-Tediousness.md)
+- [05 - Autocomplete](/Tutorial/05-Autocomplete.md)
