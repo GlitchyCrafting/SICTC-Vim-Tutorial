@@ -3,7 +3,7 @@
 Tired of typing in so many things? Searching through documentation to find methods and properties?
 Well, I have the plugin just for you! Or rather many, many, plugins.
 
-1. `sudo apt-git install yarn`
+1. `sudo apt-get install yarn`
 2. Add your sources, yes all of them
 ```vim
     Plug 'neoclide/coc.nvim', { 'branch': 'release' }
@@ -40,9 +40,11 @@ Well, I have the plugin just for you! Or rather many, many, plugins.
 ```
 
 Here's what the keybinds do:
-- `<TAB>`: Scrolls down one entry
-- `<S-TAB>`: Scrolls up one entry
-- `<S-CR>`,`Shift+Enter`: Confirms completion
-- `<C-@>`,`CTRL+Space`: Force-shows completion menu
+```vim
+<TAB>   " Scrolls down one entry
+<S-TAB> " Scrolls up one entry
+<S-CR>  " Confirms completion
+<C-@>   " Force-shows completion menu
+```
 
 Now you have basic autocomplete for `css`,`html`,`markdown`,`python`,`bash`, and `typescript`.

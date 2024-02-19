@@ -1,8 +1,7 @@
 # Vim for SICTC
 
 A tutorial with example configs to turn vim into a basic IDE. This tutorial
-assumes you are using an Ubuntu-based Linux distro (eg. Raspbian).
-
+assumes you are using an Ubuntu-based Linux distro (eg. Raspbian, Mint).
 
 ### Key
 
@@ -10,6 +9,9 @@ This key is the same as used in the Vim docs
 
 - `<key>`: Key with special name
 - `<C-key>`: CTRL+key
+- `<S-key>`: Shift+key (only used for special characters)
+- `<A-key>`: ALT+key
+- `<CR>`: Enter key
 - `{thing}`: Required
 - `[thing]`: Optional
 

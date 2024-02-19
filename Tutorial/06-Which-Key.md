@@ -37,6 +37,8 @@ Then, bind the menu to your <Space> key:
 
 You can add more commands based on what you want, just follow that syntax.
 Here are some places you can find more commands:
-- `:help`
-- `:help coc-list-sources`
-- `:help fzf-vim-commands`
+```vim
+:help
+:help coc-list-sources
+:help fzf-vim-commands
+```

@@ -5,100 +5,134 @@ vim`. It's recommended to do `$ vimtutor` to learn the basics of Vim.
 
 ## Jargon
 
-- `window`: A pane that has a file in it
-- `buffer`: An open file
-- `fold`: A block of text that can be opened and closed
+```
+window - A pane that has a file in it
+buffer - An open file
+fold - A block of text that can be opened and closed
+```
 
 ## Keybinds
 
 Keybinds I either use or replace with a more user-friendly plugin. Learning them
 will slowly remove the need to use the mouse over time. You can find more
-keybinds by typing `:help quickref`
+keybinds by typing `:help quickref`.
 
 ### Motions
 
-- `<arrow>`: Character-based movement
-- `$`: End of line
-- `^`: Beginning of line
-- `gg`: First line of file
-- `G`: Last line of file
-- `{`,`}`: Paragraph forward,backward
-- `<C-u>`,`<C-d>`: Scroll a half page up,down
+
+```vim
+    <arrow> " Character-based movement
+    $       " End of line
+    ^       " Beginning of line
+    gg      " First line of file
+    G       " Last line of file
+    {       " Paragraph forward
+    }       " Paragraph backward
+    <C-u>   " Scroll half a page up
+    <C-d>   " Scroll a half page down
+```
 
 ### Normal Mode
 
-- `i`,`I`: Insert text before character,line
-- `a`,'A': Append text after character,line
-- `o`,'O': Insert on new line below,above
-- `v`,`<C-v>`: Enter visual,block mode
-- `c{motion}`: Change text selected by {motion}, 'cc' changes line
-- `:`: Enter command mode
-- `<C-w>`: Interact with windows
-- `/`,`?`: Search forward,backward
-- `n`,`N`: Next,Previous match
-- `*`,`#`: Search word under cursor forward,backward
-- `x`,`X`: Delete character under,before cursor
-- `d{motion}`: Deletes text selected by {motion}, `dd` deletes line
-- `y{motion}`: Yank text selected by {motion}, `yy` yanks line
-- `p`,`P`: Put yanked text after,before cursor
-- `~`: Toggle character case
-- `<C-a>`,`<C-x>`: Increment,Decrement number under cursor
-- `>>`,`<<`: Indent,Unindent line
-- `==`: Auto indent line (Does nothing with python, nothing helpful anyway)
-- `.`: Repeat last action
-- `u`,`<C-r>`: Undo,Redo
-- `za`: Toggle fold under cursor open and close
-- `zf`: Create fold, usually text is selected before doing this
-- `zd`: Delete fold under cursor
+```vim
+iI        " Insert text before character,line
+aA        " Append text after character,line
+oO        " Insert on new line below,above
+v         " Enter visual mode
+<C-v>     " Enter visual block mode
+c{motion} " Change text selected by {motion}, 'cc' changes line
+:         " Enter command mode
+<C-w>     " Interact with windows
+/         " Search forward
+?         " Search Backward
+n         " Next match
+N         " Previous match
+*         " Search word under cursor forward
+#         " Search word under cursor backward
+x         " Delete character under cursor
+X         " Delete character before cursor
+d{motion} " Deletes text selected by {motion}, `dd` deletes line
+y{motion} " Yank text selected by {motion}, `yy` yanks line
+p         " Put yanked text after cursor
+P         " Put yanked text before cursor
+~         " Toggle character case
+<C-a>     " Increment number under cursor
+<C-x>     " Decrement number under cursor
+>>        " Indent line
+<<        " Unindent line
+==        " Auto indent line (Does nothing with python, nothing helpful anyway)
+.         " Repeat last action
+u         " Undo
+<C-r>     " Redo
+za        " Toggle fold under cursor open and close
+zA        " Toggle fold under cursor open and close, including sub-folds
+zf        " Create fold, usually text is selected before doing this
+zd        " Delete fold under cursor
+zx        " Refresh folds, useful if foldmethod=indent
+```
 
 ### Command Mode
 
-- `w [file]`: Write [file]
-- `q[!]`: Quit [without saving]
-- `e {file}`: Edit {file} in current window
-- `enew`: Create empty buffer
-- `buffers`: List buffers
-- `bn`: Cycle to next buffer
-- `bp`: Cycle to previous buffer
-- `bd`: Delete current buffer
+```vim
+:w [file] " Write [file]
+:q[!]     " Quit [without saving]
+:e {file} " Edit {file} in current window
+:enew     " Create empty buffer
+:buffers  " List buffers
+:bn       " Cycle to next buffer
+:bp       " Cycle to previous buffer
+:bd       " Delete current buffer
+:term     " Open terminal
+```
 
 ### Insert Mode
 
-- `<C-o>`: Temporary normal mode
+```vim
+<C-o> " Temporary normal mode
+```
 
 ### Visual (Block) Mode
 
 Selecting text. This one gets a bit complicated. You __can__ use any motion to select text, but I'm
-gonna show the shortcuts that make life a lot easier. There are two parts to these shortcuts:
+gonna show some extra motions that make life a lot easier. There are two parts to these motions:
 
 Part One: Around and Inside
-- `a`: Selects the identifier and the stuff inside
-- `i`: Selects only the stuff inside an identifier
+```vim
+a " Selects the identifier and the stuff inside
+i " Selects only the stuff inside an identifier
+```
 
 Part Two: The Identifier
-- `w`: Word
-- `s`: Sentence
-- `p`: Paragraph
-- `{`: `{ this }`
-- `[`: `[ this ]`
-- `(`: `( this )`
-- `<`: Angle Block
-- `t`: HTML Tag
-- `'`: Single Quote
-- `"`: Double Quote
-- <code>`</code>: Backtick Quote
+```vim
+w " Word
+s " Sentence
+p " Paragraph
+{ " { this }
+[ " [ this ]
+( " ( this )
+< " Angle Block
+t " HTML Tag
+' " Single Quote
+" " Double Quote
+` " Backtick Quote
+```
 
 Combining these (ex. `aw`, `it`) results in faster and easier text selection
 than using the mouse.
 
 ### Windows
 
-- `s`: Split window horizontally (top, bottom)
-- `v`: Split window vertically (left, right)
-- `<arrow>`: Move to window in <arrow> direction
-- `w`,`W`: Cycle to next,previous window
-- `q`: Close window
-- `o`: Close other windows
-- `=`: Make all windows same width and height
-- `+`,`-`: Increase,Decrease window height
-- `<`,`>`: Increase,Decrease window width
+```vim
+s       " Split window horizontally (top, bottom)
+v       " Split window vertically (left, right)
+<arrow> " Move to window in <arrow> direction
+w       " Cycle to next window
+W       " Cycle to previous window
+q       " Close window
+o       " Close other windows
+=       " Make all windows same width and height
++       " Increase window height
+-       " Decrease window height
+>       " Increase window width
+<       " Decrease window width
+```
