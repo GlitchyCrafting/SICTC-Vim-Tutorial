@@ -18,12 +18,12 @@ call plug#end()
 ```
 Any time we add a plugin, it will go between these two calls. Nothing else will ever go in between them.
 
-As practice, let's make Vim a bit prettier by adding a colorscheme. My `glitchcandy` port for Vim isn't done yet so here's my next three favorites:
+As practice, let's make Vim a bit prettier by adding a colorscheme. My colorscheme, `glitchcandy`, doesn't have a Vim version so here's my next three favorites:
 1. [catppuccin](https://vimcolorschemes.com/catppuccin/vim), mocha variant
 2. [tokyonight](https://vimcolorschemes.com/ghifarit53/tokyonight-vim)
 3. [dracula](https://vimcolorschemes.com/dracula/vim)
 
-You can use any colorscheme you like, [here's some more](https://vimcolorschemes.com), but make sure it's not an NVim scheme and only a Vim one.
+You can use any colorscheme you like, [here's some more](https://vimcolorschemes.com), but make sure it's not an NeoVim scheme, like `glitchcandy`, and only a Vim one.
 
 ```vim
 " In your options
