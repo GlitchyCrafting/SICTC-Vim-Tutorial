@@ -1,7 +1,7 @@
 # Vim for SICTC
 
 A tutorial with example configs to turn vim into a basic IDE. This tutorial
-assumes you are using an Ubuntu-based Linux distro (eg. Raspbian, Mint).
+assumes you are using Raspbian Linux on a Raspberry Pi.
 
 ### Key
 
