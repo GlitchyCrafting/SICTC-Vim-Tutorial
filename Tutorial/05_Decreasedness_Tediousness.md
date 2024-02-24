@@ -38,5 +38,3 @@ list](https://www.wikiwand.com/en/Indentation_style). Let's just let Vim
 autoconfig itself to other's styles when we open their project with
 `editorconfig/editorconfig-vim`. Editorconfig has plugins for most editors so
 many companies use it to keep everything consistent.
-
-<!-- TODO: Add navigation -->

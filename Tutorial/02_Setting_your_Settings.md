@@ -79,5 +79,3 @@ ain't helpful in Vim.
 ```vim
 set mouse= " Yes the value is nothing, that disables it completely
 ```
-
-<!-- TODO: Add navigation -->

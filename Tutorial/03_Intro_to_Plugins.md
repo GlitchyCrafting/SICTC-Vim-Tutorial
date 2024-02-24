@@ -72,5 +72,3 @@ set t_Co=256 " Tells Vim how many colors are supported
 <!-- TODO: Add colorscheme comparison images -->
 
 [^1]: Unless the author explicitly builds it to be Vim compatible.
-
-<!-- TODO: Add navigation -->

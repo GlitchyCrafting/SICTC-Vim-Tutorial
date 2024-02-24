@@ -58,12 +58,6 @@ x " Delete character under cursor
 X " Delete chasacter before cursor
 d{motion} " Deletes many characters based on a motion
 dd " Deletes a whole line
-<C-a> " Increment number under cursor
-<C-x> " Decrement number under cursor
->> " Indents line
-<< " Unindents line
-== " Auto indent line
-~ " Toggle case of character
 ```
 
 ### Searching
@@ -105,6 +99,3 @@ u     " Undo
 
 [^1]: There is a startup option that changes the behavior to be Insert Mode
     focused.
-
-
-<!-- TODO: Add navigation --->
