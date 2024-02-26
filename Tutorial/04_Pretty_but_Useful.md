@@ -37,3 +37,5 @@ Plug 'vim-airline/vim-airline'
 ```
 
 <!-- TODO: Add diagram of status line information. -->
+
+### [Previous](/Tutorial/03_Intro_to_Plugins.md) <==> [Next](/Tutorial/05_Decreasedness_Tediousness.md)

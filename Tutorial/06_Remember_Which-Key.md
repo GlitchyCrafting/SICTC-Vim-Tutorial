@@ -32,3 +32,5 @@ You make more keybindings yourself, here's where you can find more commands:
 :help ex-commands
 :help quickref
 ```
+
+### [Previous](/Tutorial/05_Decreasedness_Tediousness.md) <==> [Next](/Tutorial/07_Advanced_Keybindings.md)

@@ -37,6 +37,8 @@ There are [more colorschemes to choose from](https://vimcolorschemes.com), just
 make sure it's a Vim colorscheme and not a NeoVim (NVim) one. NeoVim can use Vim
 stuff, but not the other way around[^1].
 
+[^1]: Unless the author explicitly builds it to be Vim compatible.
+
 ```vim
 call plug#begin()
 
@@ -71,4 +73,4 @@ set t_Co=256 " Tells Vim how many colors are supported
 
 <!-- TODO: Add colorscheme comparison images -->
 
-[^1]: Unless the author explicitly builds it to be Vim compatible.
+### [Previous](/Tutorial/02_Setting_your_Settings.md) <==> [Next](/Tutorial/04_Pretty_but_Useful.md)
