@@ -73,3 +73,5 @@ Vim can increment and decrement numbers for you:
 
 Vim can also toggle UPPERCASE and lowercase of whatever's selected or the
 character under the cursor with `~`.
+
+### [Previous](/Tutorial/06_Remember_Which-Key.md) <==> [Next](/Tutorial/08_Extra_Configs.md)

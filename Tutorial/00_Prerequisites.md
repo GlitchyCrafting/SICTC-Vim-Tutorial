@@ -11,3 +11,5 @@ This key is the same as used in the Vim docs
 - `<CR>`: Enter key
 - `{thing}`: Required
 - `[thing]`: Optional
+
+### [Previous](/README.md) <==> [Next](/Tutorial/01_Basic_Keybindings.md)

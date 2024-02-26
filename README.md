@@ -11,7 +11,9 @@ assumes you are using Raspbian Linux on a Raspberry Pi.
 - [03 - Intro to Plugins](/Tutorial/03_Intro_to_Plugins.md)
 - [04 - Pretty but Useful](/Tutorial/04_Pretty_but_Useful.md)
 - [05 - Decreasedness Tediousness](/Tutorial/05_Decreasedness_Tediousness.md)
-- [06 - Automagic Typing](/Tutorial/06_Automagic_Typing.md)
-- [07 - Remember Which-Key](/Tutorial/07_Remember_Which-Key.md)
-- [08 - Advanced Keybindings](/Tutorial/08_Advanced_Keybingings.md)
+- [06 - Remember Which-Key](/Tutorial/06_Remember_Which-Key.md)
+- [07 - Advanced Keybindings](/Tutorial/07_Advanced_Keybindings.md)
+- [08 - Extra Configs](/Tutorial/08_Extra_Configs.md)
 - [09 - Conclusion And Beyond](/Tutorial/09_Conclusion_and_Beyond.md)
+
+### [Begin](/Tutorial/00_Prerequisites.md)

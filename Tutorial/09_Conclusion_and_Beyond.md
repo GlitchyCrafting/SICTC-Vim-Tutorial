@@ -28,3 +28,5 @@ configuration consistent, no more needing to have 20 different config styles.
 NeoVim just has many more feature by default and makes it easier to add on to
 it. I recommend taking a look at it, it's what I use and my colorscheme
 [glitchcandy](https://github.com/glitchcandy/) is avaliable for it.
+
+### [Previous](/Tutorial/08_Extra_Configs.md)

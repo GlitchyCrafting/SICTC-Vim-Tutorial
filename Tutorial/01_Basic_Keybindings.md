@@ -26,6 +26,9 @@ G     " Takes you to the last line in the file
 Vim is a mode-based editor, this means you have different modes that allow you
 to do different things. When you open Vim, you always[^1] start in Normal Mode.
 
+[^1]: There is a startup option that changes the behavior to be Insert Mode
+    focused.
+
 Here are the other modes and common ways to get to them from Normal Mode:
 - Insert:
     - This is how you type in text
@@ -95,7 +98,4 @@ u     " Undo
 :term " Opens a terminal
 ```
 
-#### Footnotes
-
-[^1]: There is a startup option that changes the behavior to be Insert Mode
-    focused.
+### [Previous](/Tutorial/00_Prerequisites.md) <==> [Next](/Tutorial/02_Setting_your_Settings.md)

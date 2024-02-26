@@ -18,3 +18,5 @@ but you can make more with the documentation:
 ```vim
 :help autocmd
 ```
+
+### [Previous](/Tutorial/07_Advanced_Keybindings.md) <==> [Next](/Tutorial/09_Conclusion_and_Beyond.md)

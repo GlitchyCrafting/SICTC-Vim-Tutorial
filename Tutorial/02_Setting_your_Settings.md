@@ -79,3 +79,5 @@ ain't helpful in Vim.
 ```vim
 set mouse= " Yes the value is nothing, that disables it completely
 ```
+
+### [Previous](/Tutorial/01_Basic_Keybindings.md) <==> [Next](/Tutorial/03_Intro_to_Plugins.md)
