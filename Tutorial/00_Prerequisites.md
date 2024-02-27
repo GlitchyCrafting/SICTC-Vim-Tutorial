@@ -12,4 +12,11 @@ This key is the same as used in the Vim docs
 - `{thing}`: Required
 - `[thing]`: Optional
 
+### Installation
+
+Run the following command to make sure everything we need is installed:
+```bash
+sudo apt-get install vim fzf curl
+```
+
 ### [Previous](/README.md) <==> [Next](/Tutorial/01_Basic_Keybindings.md)
