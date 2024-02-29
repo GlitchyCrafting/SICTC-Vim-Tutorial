@@ -11,14 +11,14 @@ waster, I know. With `tpope/vim-commentary` we can just select the lines we want
 and press `gc`, `gcc` without selection, to toggle the comment key. Don't even
 need to be at the beginning of a line.
 
-<!-- TODO: Add example -->
+![Commenting](/Assets/Comment.webm)
 
 ### Auto-pair
 
 When we type `"` or `{` or, even worse, `"""`, wouldn't it be nice if Vim would
 type the match for us? `jiangmiao/auto-pairs` adds this functionality.
 
-<!-- TODO: Add example -->
+![AutoPair](/Assets/AutoPair.webm)
 
 ### File Opening
 
@@ -26,9 +26,10 @@ Needing to type `:e {file}` and needing to remember the entire path to the file
 is absolutely horrible. We could use a file tree, but we'd still have to
 remember where the file is. Let's instead use a fuzzy finder so we only need to
 remember bits and peices of the file path. `junegunn/fzf.vim` adds more than
-just fuzzy finding files, but many other things too.
+just fuzzy finding files, but many other things too. It also requires
+`junegunn/fzf` to be installed to work.
 
-<!-- TODO: Add example -->
+![FZF](/Assets/FZF.webm)
 
 ### Editor Syntax Compatibility
 

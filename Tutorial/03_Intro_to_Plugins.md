@@ -30,7 +30,7 @@ my own colorscheme, `glitchcandy`, but it don't have a Vim version yet, so we
 gotta go with my next favorites.
 
 1. [catppuccin](https://vimcolorschemes.com/catppuccin/vim), the mocha variant
-2. [tokyonight](https://vimcolorschemes.com/ghifart53/tokyonight-vim)
+2. [tokyonight](https://vimcolorschemes.com/ghifarit53/tokyonight-vim)
 3. [dracula](https://vimcolorschemes.com/dracula/vim)
 
 There are [more colorschemes to choose from](https://vimcolorschemes.com), just
@@ -71,6 +71,8 @@ set t_Co=256 " Tells Vim how many colors are supported
 " 256 colors is supported by every modern-ish terminal emulator
 ```
 
-<!-- TODO: Add colorscheme comparison images -->
+| Catppuccin | TokyoNight | Dracula |
+|:----------:|:----------:|:-------:|
+| ![Catppuccin](/Assets/Catppuccin.png) | ![TokyoNight](/Assets/TokyoNight.png) | ![Dracula](/Assets/Dracula.png) |
 
 ### [Previous](/Tutorial/02_Setting_your_Settings.md) <==> [Next](/Tutorial/04_Pretty_but_Useful.md)
