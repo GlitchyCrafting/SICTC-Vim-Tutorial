@@ -24,7 +24,7 @@ Then, bind it to the space bar when you're in normal mode:
 nnoremap <silent> <Space> :WhichKey '<Space>'<CR>
 ```
 
-/Assets/WhichKey.mp4
+[Video](https://youtu.be/37tB6bRLXUw)
 
 You make more keybindings yourself, here's where you can find more commands:
 ```vim
