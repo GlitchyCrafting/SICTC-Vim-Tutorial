@@ -14,7 +14,7 @@ Vim. `ap/vim-css-color` will highlight:
 
 Unfortunately, it only works in CSS files.
 
-<!-- TODO: Add color preview example -->
+![CSS Highlight](/Assets/CSSHighlight.png)
 
 ### Indent Guides
 
