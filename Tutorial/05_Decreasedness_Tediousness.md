@@ -11,14 +11,14 @@ waster, I know. With `tpope/vim-commentary` we can just select the lines we want
 and press `gc`, `gcc` without selection, to toggle the comment key. Don't even
 need to be at the beginning of a line.
 
-/Assets/Comment.mp4
+[Video](https://youtu.be/y9wXOtoIX3U)
 
 ### Auto-pair
 
 When we type `"` or `{` or, even worse, `"""`, wouldn't it be nice if Vim would
 type the match for us? `jiangmiao/auto-pairs` adds this functionality.
 
-/Assets/AutoPair.mp4
+[Video](https://youtu.be/XEhjfzRaTJI)
 
 ### File Opening
 
@@ -29,7 +29,7 @@ remember bits and peices of the file path. `junegunn/fzf.vim` adds more than
 just fuzzy finding files, but many other things too. It also requires
 `junegunn/fzf` to be installed to work.
 
-/Assets/FZF.mp4
+[Video](https://youtu.be/0QcURNn-JII)
 
 ### Editor Syntax Compatibility
 
