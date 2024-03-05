@@ -49,7 +49,7 @@ Here are the other modes and common ways to get to them from Normal Mode:
       frustrating.
 
 > [!IMPORTANT]
-> If all else fails, spam <Esc> to get yourself back into Normal Mode
+> If all else fails, spam `<Esc>` to get yourself back into Normal Mode
 
 ### Modifying Text
 
@@ -58,7 +58,7 @@ Any key pressed twice only has to be pressed once when in Visual Mode.
 
 ```vim
 x " Delete character under cursor
-X " Delete chasacter before cursor
+X " Delete character before cursor
 d{motion} " Deletes many characters based on a motion
 dd " Deletes a whole line
 ```
