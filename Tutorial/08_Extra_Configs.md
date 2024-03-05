@@ -13,7 +13,13 @@ au BufRead,BufNew '*.ts' set filetype=javascript
 " When a buffer is read or created with the 'ts' extention, set the filetype to js
 ```
 
-Currently, we don't need any more `autocmd`s so that's the only one I'll show,
+Let's do another. Having `spell` enabled all the time is annoying, but it's helpful for Markdown files. To automatically enable `spell` for Markdown files:
+```
+au BufRead,BufNew '*.md' setlocal spell
+" We use setlocal that way it's only set for the Markdown file and not our other open files
+```
+
+Currently, we don't need any more `autocmd`s,
 but you can make more with the documentation:
 ```vim
 :help autocmd
