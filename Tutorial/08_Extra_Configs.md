@@ -14,7 +14,7 @@ au BufRead,BufNew '*.ts' set filetype=javascript
 ```
 
 Let's do another. Having `spell` enabled all the time is annoying, but it's helpful for Markdown files. To automatically enable `spell` for Markdown files:
-```
+```vim
 au BufRead,BufNew '*.md' setlocal spell
 " We use setlocal that way it's only set for the Markdown file and not our other open files
 ```
