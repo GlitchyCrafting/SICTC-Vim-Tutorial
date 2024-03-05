@@ -19,4 +19,8 @@ Run the following command to make sure everything we need is installed:
 sudo apt-get install vim fzf curl
 ```
 
+- `vim`: Second only to NeoVim
+- `fzf`: A fuzzy finder with Vim integration
+- `curl`: Allows downloading stuff from the terminal
+
 ### [Previous](/README.md) <==> [Next](/Tutorial/01_Basic_Keybindings.md)
