@@ -57,7 +57,7 @@ set textwidth=80 " Max length for a single line, autoformatting uses it
 ```vim
 set ruler " Gives cursor position in bottom right corner
 set number " Shows line numbers
-set relativenuber " Makes line numbers relative to cursor, motions are easier
+set relativenumber " Makes line numbers relative to cursor, motions are easier
 set scrolloff=5 " Cursor's distance from top and bottom when scrolling
 ```
 
