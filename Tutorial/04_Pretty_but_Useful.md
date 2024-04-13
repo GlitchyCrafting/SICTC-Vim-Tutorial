@@ -23,7 +23,7 @@ looking at a ruler? We don't even need a plugin:
 
 ```vim
 " Somewhere in your config
-set list lcs=tab:\|\
+set list lcs=tab:\|\ " Don't forget the space after the second '\', everything will look wierd if you do
 ```
 
 ### Status Line
