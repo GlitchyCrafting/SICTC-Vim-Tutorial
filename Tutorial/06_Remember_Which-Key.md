@@ -9,6 +9,7 @@ In your settings, set `timeoutlen=0` so the menu shows up immediately.
 Now, let's add some bindings:
 ```vim
 let g:which_key_map = {}
+" let g:which_key_map.key = ['VimCommand', 'Display Name']
 let g:which_key_map.f = ['Files' , 'Files']
 let g:which_key_map.p = ['PlugUpdate', 'Update Plugins']
 let g:which_key_map.c = ['PlugClean', 'Clean Plugins']
