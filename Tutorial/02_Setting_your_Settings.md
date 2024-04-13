@@ -41,7 +41,7 @@ set encoding=utf-8 " We live in the modern era for a modern encoding
 
 ```vim
 set noexpandtab " Prevents tabs turning into spaces: spaces bad, tabs good
-set tabstop=4 " Makes tabs 4 characters wide
+set tabstop=8 " Makes tabs 8 characters wide
 set softtabstop=-1 " Makes it the same as tabstop automatically
 set shiftwidth=0 " Makes it the same as tabstop automatically
 " The two previous options must be the same as tabstop for our config,
