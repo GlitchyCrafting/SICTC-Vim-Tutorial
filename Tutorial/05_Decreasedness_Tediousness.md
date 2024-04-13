@@ -15,7 +15,7 @@ need to be at the beginning of a line.
 
 ### Auto-pair
 
-When we type `"` or `{` or, even worse, `"""`, wouldn't it be nice if Vim would
+When we type `"` or `{` or, even worse, `"""` in python, wouldn't it be nice if Vim would
 type the match for us? `jiangmiao/auto-pairs` adds this functionality.
 
 [Video](https://youtu.be/XEhjfzRaTJI)
